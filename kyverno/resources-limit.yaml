@@ -11,7 +11,7 @@ spec:
         kinds:
         - Pod
     validate: 
-      message: "Não sobe sem limites"
+      message: "Não sobe sem limites, quer estourar o Cluster, 23?"
       pattern: 
         spec:
           containers:
